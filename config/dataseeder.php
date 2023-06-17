@@ -402,7 +402,7 @@ return  [
         [
             "name"=>"Raw No Beef",
             "price"=>"7.5",
-            "image"=>"la-locanda-delle-due-suocere-raw-no-beef",
+            "image"=>"images/noburger.jpg",
             "restaurant_id" => [1, 8],
             "category_id"=>4,
             "ingredients" => "Raw No Beef(veg), Patate al Forno, Pestato di pomodoro secco, Patate novelle al Forno, Cipolla Rossa Grigliata",
