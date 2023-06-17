@@ -26,7 +26,7 @@ class OrderSeeder extends Seeder
             $newOrder->total_amount = $faker->randomFloat(2, 1, 500);
             $newOrder->payed = $faker->boolean();
             $newOrder->date = $faker->date();
-            $newOrder->restaurant_id = $faker->numberBetween(1, 11);
+            $newOrder->restaurant_id = $faker->numberBetween(1, 10);
             $newOrder->save();
         }
     }   
